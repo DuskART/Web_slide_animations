@@ -1,0 +1,105 @@
+html {
+  background: linear-gradient(#e66465, #9198e5);
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+body {
+  height: 100%;
+  width: 80%;
+  margin: auto;
+  background: transparent
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 45px;
+  text-align: center;
+  background: black;
+  color: #ffffff;
+  position: relative;
+  top: 0px;
+  margin-top: 0px;
+  padding-top: 0px;
+  height: 14vh;
+  width: 100%;
+  line-height: 150%;
+}
+
+p {
+  width: 90%;
+  margin: auto;
+  padding: 2vw;
+  background: #ffffff;
+  color: black;
+  
+  font-family: sans-serif;
+  font-weight: 600;
+  margin-bottom: 1vh;
+}
+
+#add, button {
+  float: right;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #8eb4d2;
+  border: solid #8eb4d2 0.1vh;
+  
+  font-weight: 600;
+}
+
+#add:hover, button:hover {
+  background: #306d9c;
+  color: white;
+  
+}
+
+#add:active, button:active {
+  background: #d6d6d6;
+  color: white;
+  border: solid white 0.5vh;
+}
+
+@keyframes del {
+  0% {
+    opacity: 100%;
+  }
+  60% {
+    opacity: 0%;
+    font-display: none;
+  }
+  75% {
+    opacity: 0%;
+    font-display: none;
+  }  
+    
+  
+  100% {
+    opacity: 0%;
+    height: 0px;
+    line-height: 0px;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 0px;
+    
+  }
+}
+
+.delete {
+animation-name: del;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+} 
+
+#field {
+  
+  width: 50%
+}
+#add {
+  margin-right: 5vw;
+  p
+  
+}
+
+#formular {
+  padding-bottom: 4vh;
+}
